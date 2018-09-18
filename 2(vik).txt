@@ -1,0 +1,16 @@
+/*@RequestMapping("searchId")
+		public String retrieveTraineedata(@Valid@RequestParam("query_id")Integer query_id,Model model)
+	{
+		
+		if(query_id==null)
+		{
+			model.addAttribute("query_id",query_id); 
+			return "retrieveClientNotFound";        // if userid is wrong
+		}
+		else
+		{			
+			model.addAttribute("client",iser.searchClientId(query_id));
+			return "retrieveClientDetails";        // if userid is correct
+		}
+		
+	}*/

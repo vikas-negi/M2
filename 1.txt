@@ -1,0 +1,16 @@
+/*@RequestMapping("searchId")
+	public String retrieveTraineedata(@Valid@ModelAttribute("client")Client client,BindingResult res,Model model)
+	{
+		if(res.hasErrors())
+		{
+			model.addAttribute("client",client);
+			return "retrieveClientNotFound";
+		}
+		else
+		{			
+			Client clientList = iser.searchClientId(client.getQuery_id());
+			model.addAttribute("client",clientList);
+			return "retrieveClientDetails";
+		}
+		
+	}*/
